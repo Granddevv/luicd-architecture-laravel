@@ -4,16 +4,9 @@ The Lucid Architecture is a software architecture that consolidates code-base ma
 from becoming overwhelming to handle, gets us rid of rotting code that will later become legacy code, and translate
 the day-to-day language such as Feature and Service into actual, physical code.
 
-Read more about the [Lucid Architecture Concept](https://medium.com/vine-lab/the-lucid-architecture-concept-ad8e9ed0258f).
 
 If you prefer a video, watch the announcement of The Lucid Architecture at LaraconEU 2016:
 
-##### The Lucid Architecture for Building Scalable Applications - Laracon EU 2016
-[![Abed Halawi - The Lucid Architecture for Building Scalable Applications](http://img.youtube.com/vi/wSnM4JkyxPw/0.jpg)](http://www.youtube.com/watch?v=wSnM4JkyxPw "Abed Halawi - The Lucid Architecture for Building Scalable Applications")
-
-
-### Join The Community on Slack
-[![Slack Status](https://lucid-slack.herokuapp.com/badge.svg)](https://lucid-slack.herokuapp.com)
 
 ## Index
 - [Installation](#installation)
@@ -331,7 +324,7 @@ public function register()
 ```
 
 ## Getting Started
-This project ships with the [Lucid Console](https://github.com/lucid-architecture/laravel-console) which provides an interactive
+This project ships with the which provides an interactive
 user interface and a command line interface that are useful for scaffolding and exploring Services, Features and Jobs.
 
 ### Setup
@@ -343,7 +336,7 @@ call `lucid`:
 export PATH="./vendor/bin:$PATH"
 ```
 
-For a list of all the commands that are available run `lucid` or see the [CLI Reference](https://github.com/lucid-architecture/laravel-console).
+For a list of all the commands that are available run `lucid` or see the CLI Reference .
 
 #### Launching the Interactive Console (UI)
 
@@ -481,11 +474,9 @@ If you have been hearing about microservices lately, and wondering how that work
 based on microservices, or build your application armed and ready for the shift when it occurs, Lucid is your best bet.
 It has been designed with scale at the core and the microservice transition in mind, it is no coincidence that the
 different parts of the application that will (most probably) later on become the different services with the microservice
-architecture, are called **Service**. However, [it is recommended](http://martinfowler.com/bliki/MonolithFirst.html)
-that only when your monolith application grow so large that it becomes crucial to use microservices for the sake of
+architecture, are called **Service**. However, it is recommented that only when your monolith application grow so large that it becomes crucial to use microservices for the sake of
 the progression and maintenance of the project, to do the shift; because once you've built your application using Lucid,
 the transition to a microservice architecture will be logically simpler to plan and physically straight-forward
-to implement. There is a [microservice counterpart](https://github.com/lucid-architecture/laravel-microservice)
-to Lucid that you can check out [here](https://github.com/lucid-architecture/laravel-microservice).
+to implement. There is a microservice counterpart to Lucid that you can check out.
 
 With more on the means of transitioning from a monolith to a microservice
